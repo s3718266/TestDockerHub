@@ -17,8 +17,6 @@ jobs:
     - name: docker build nodejs
       run: |
         docker build ./nodejs -t aimvector/nodejs:1.0.0
-    - name: docker build python
-      run: |
 
 
         docker push aimvector/nodejs:1.0.0
